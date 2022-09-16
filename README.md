@@ -11,7 +11,7 @@
 
 - `Spring Boot` : WebFlux, Eureka
 - `DB` : PostgreSQL, Redis
-- `Message Queue `: Kafka
+- `Message Queue` : Kafka
 
 ※ Kafka는 Docker container 이용.
 
@@ -27,7 +27,7 @@
 😀 `exchange-api, exchange-oauth, exchange-wallet, exchange-webflux` 4개의 서버를 관리하기 위해, `exchange-eureka, exchange-gateway`를 통하여 MSA를 구현했습니다.
 
 ## MSA 서비스 관리
-
+![eureka main](https://github.com/HashCitrine/exchange-eureka/blob/master/img/eureka%20main.png?raw=true)
 ---
 
 ### 1. 현재 Eureka에 연동 설정된 서비스 목록  
